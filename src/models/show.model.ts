@@ -21,7 +21,24 @@ type Network = {
   officialSite: string;
 };
 
-type ShowInfo = {
+type Externals = {
+  tvrage: number;
+  thetvdb: number;
+  imdb: string;
+};
+
+type WebChannel = {
+  name: string;
+  officialSite: string;
+  id: number;
+  country: string;
+};
+
+type Rating = {
+  average?: number;
+};
+
+export type Show = {
   id: number;
   url: string;
   name: string;
@@ -35,19 +52,13 @@ type ShowInfo = {
   ended: string; // date
   officialSite: string;
   schedule: Schedule;
-//   rating: object; 
+  rating: Rating;
   weight: number;
   network: Network;
-  webChannel: string;
+  webChannel?: WebChannel;
   dvdCountry: string;
-//   externals: object;
-  image: Image;
+  externals: Externals;
+  image?: Image;
   summary: string;
   updated: number;
-//   _links: object;
 };
-
-export type Show = {
-    score: number;
-    show: ShowInfo;
-}

@@ -18,6 +18,12 @@ const routes = [
     params: true,
     component: () => import("@/views/SearchView.vue"),
   },
+  {
+    path: "/:notFound",
+    name: "NotFound",
+    params: true,
+    component: () => import("@/views/PageNotFoundView.vue"),
+  },
 ];
 
 const router = createRouter({

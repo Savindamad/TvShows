@@ -1,7 +1,7 @@
 <template>
   <ErrorComponent
-    :title="'Page not found!'"
-    :message="'Sorry, Page you are looking for is not available.'"
+    :title="$t('page-not-found-error-titile')"
+    :message="$t('page-not-found-error-message')"
     :image-src="errorImage"
   />
 </template>

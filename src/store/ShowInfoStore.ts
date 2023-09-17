@@ -1,6 +1,7 @@
 import { defineStore } from "pinia";
 
 import { Show } from "@/models/show.model";
+import { endpoints } from "@/static/app.config";
 
 type State = {
   show: Show | null;
@@ -19,14 +20,14 @@ export const useShowInfoStore = defineStore("ShowInfoStore", {
       try {
         this.loading = true;
         this.error = false;
-        this.show = await fetch(
-          `https://api.tvmaze.com/lookup/shows?thetvdb=${id}`
-        ).then((response) => {
-          if (response.ok) {
-            return response.json();
+        this.show = await fetch(`${endpoints.show}?thetvdb=${id}`).then(
+          (response) => {
+            if (response.ok) {
+              return response.json();
+            }
+            throw new Error("fetchShowById error");
           }
-          throw new Error("fetchShowById error");
-        });
+        );
       } catch {
         this.error = true;
       } finally {

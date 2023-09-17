@@ -1,18 +1,19 @@
 import { defineStore } from "pinia";
 
 import { Show } from "@/models/show.model";
+import { endpoints } from "@/static/app.config";
 
 type State = {
   shows: Show[];
   loading: boolean;
-  error: unknown | null;
+  error: boolean;
 };
 
 export const useShowStore = defineStore("ShowStore", {
   state: (): State => ({
     shows: [],
     loading: false,
-    error: null,
+    error: false,
   }),
   getters: {
     getShowsByGenres(state): (genres: string) => Show[] {
@@ -23,7 +24,7 @@ export const useShowStore = defineStore("ShowStore", {
           state.shows
             .filter((show) => show.genres.includes(genres))
             .sort(sortByRatings)
-            .slice(0,20) || []
+            .slice(0, 20) || []
         );
       };
     },
@@ -33,8 +34,14 @@ export const useShowStore = defineStore("ShowStore", {
       try {
         this.shows = [];
         this.loading = true;
-        this.shows = await fetch(`https://api.tvmaze.com/shows?page=1`).then(
-          (res) => res.json()
+        this.error = false;
+        this.shows = await fetch(`${endpoints.shows}?page=1`).then(
+          (res) => {
+            if (res.ok) {
+              return res.json();
+            }
+            throw new Error("fetchShows error");
+          }
         );
       } catch {
         this.error = true;

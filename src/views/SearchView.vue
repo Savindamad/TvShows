@@ -1,7 +1,7 @@
 <template>
   <FullPageSpinnerComponent v-if="loading" />
   <div v-else-if="error">Error</div>
-  <div v-else>
+  <div class="mt-10" v-else>
     <v-row class="mx-4">
       <div v-for="(data, n) in showSearch" :key="n" class="d-flex child-flex">
         <ShowImageCard

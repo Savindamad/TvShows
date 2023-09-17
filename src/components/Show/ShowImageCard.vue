@@ -8,7 +8,7 @@
       width="200"
       @click="
         () => {
-          router.replace({ path: `/show/${showId}`, params: { id: showId } });
+          router.push({ path: `/show/${showId}`, params: { id: showId } });
         }
       "
     >

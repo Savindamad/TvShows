@@ -1,7 +1,7 @@
 <template>
   <FullPageSpinnerComponent v-if="loading" />
   <div v-else-if="error"></div>
-  <div v-else>
+  <div class="mt-10"  v-else>
     <ShowCarousel
       v-for="data in GENRES_LOAD_ORDER"
       :genres="data"

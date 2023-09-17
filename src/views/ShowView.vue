@@ -2,12 +2,12 @@
   <FullPageSpinnerComponent v-if="loading" />
   <div v-else-if="error">
     <ErrorComponent
-      :title="'Somthing went wrong'"
+      :title="'Somthing went wrong!'"
       :message="'This is the error message'"
-      :image-src="''"
+      :image-src="errorImage"
     />
   </div>
-  <div v-else-if="show">
+  <div class="mt-10" v-else-if="show">
     <v-row class="d-flex justify-center">
       <v-col offset-md="1" offset-lg="2">
         <v-row>
@@ -60,6 +60,7 @@ import EpisodesComponent from "@/components/Show/ShowInfo/EpisodesComponent.vue"
 import CastComponent from "@/components/Show/ShowInfo/CastComponent.vue";
 import ErrorComponent from "@/components/Error/ErrorComponent.vue";
 import { useShowInfoStore } from "@/store/ShowInfoStore";
+import errorImage from "@/assets/wrong.png";
 
 const { loading, error, show } = storeToRefs(useShowInfoStore());
 const { fetchShowById } = useShowInfoStore();

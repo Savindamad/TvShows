@@ -35,6 +35,9 @@ export default defineConfig({
       '.vue',
     ],
   },
+  optimizeDeps: {
+    exclude: ['js-big-decimal']
+  },
   server: {
     port: 3000,
   },

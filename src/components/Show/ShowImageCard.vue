@@ -31,13 +31,13 @@
             <p class="mx-2 text-h5 font-weight-black">
               {{ showName }}
             </p>
-            <div class="mx-1 mb-2">
+            <div v-if="showRatings" class="mx-1 mb-2">
               <v-icon
                 size="x-large"
                 color="deep-purple-accent-4"
                 icon="mdi-star"
               ></v-icon>
-              <span class="font-weight-black ml-1">8.2</span>
+              <span class="font-weight-black ml-1">{{ showRatings }}</span>
             </div>
           </v-overlay>
         </v-img>
@@ -57,5 +57,6 @@ defineProps<{
   lazySrc?: string;
   showName: string;
   showId: number | string;
+  showRatings?: number;
 }>();
 </script>

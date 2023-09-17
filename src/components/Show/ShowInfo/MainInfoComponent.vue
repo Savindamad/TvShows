@@ -25,19 +25,21 @@
           }}</span>
         </li>
         <li class="pb-1">
-          <span class="font-weight-black">Status: </span>
+          <span class="font-weight-black">{{ $t("show-status") }}: </span>
           <span class="font-weight-light">{{ show.status }}</span>
         </li>
         <li class="pb-1">
-          <span class="font-weight-black">Show type: </span>
+          <span class="font-weight-black">{{ $t("show-type") }}: </span>
           <span class="font-weight-light">{{ show.type }}</span>
         </li>
         <li class="pb-1">
-          <span class="font-weight-black">Language: </span>
+          <span class="font-weight-black">{{ $t("show-language") }}: </span>
           <span class="font-weight-light">{{ show.language }}</span>
         </li>
         <li class="pb-1" v-if="show.webChannel">
-          <span class="font-weight-black">Official site: </span>
+          <span class="font-weight-black"
+            >{{ $t("show-official-site") }}:
+          </span>
           <span>
             <a :href="show.webChannel.officialSite">{{
               show.webChannel.name

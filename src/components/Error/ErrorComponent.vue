@@ -20,7 +20,7 @@
                 router.push({ path: `/` });
               }
             "
-            >Back to Home</v-btn
+            >{{ $t("back-to-home") }}</v-btn
           >
         </v-col>
       </v-row>

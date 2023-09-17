@@ -1,6 +1,12 @@
 <template>
   <FullPageSpinnerComponent v-if="loading" />
-  <div v-else-if="error">Error</div>
+  <div v-else-if="error">
+    <ErrorComponent
+      :title="$t('page-not-found-error-titile')"
+      :message="$t('page-not-found-error-message')"
+      :image-src="errorImage"
+    />
+  </div>
   <div class="mt-10" v-else>
     <v-row class="mx-4">
       <div v-for="(data, n) in showSearch" :key="n" class="d-flex child-flex">
@@ -9,6 +15,7 @@
           :show-id="data.externals?.thetvdb || data.externals?.imdb"
           :src="data.image?.original"
           :lazy-src="data.image?.medium"
+          :show-ratings="data.rating.average"
         />
       </div>
     </v-row>
@@ -24,6 +31,8 @@ import { storeToRefs } from "pinia";
 import FullPageSpinnerComponent from "@/components/spinner/FullPageSpinnerComponent.vue";
 import ShowImageCard from "@/components/Show/ShowImageCard.vue";
 import { useSearchStore } from "@/store/SearchStore";
+import ErrorComponent from "@/components/Error/ErrorComponent.vue";
+import errorImage from "@/assets/wrong.png";
 
 const { query, showSearch, loading, error } = storeToRefs(useSearchStore());
 const { fetchShowsSearch } = useSearchStore();

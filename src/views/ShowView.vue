@@ -2,8 +2,8 @@
   <FullPageSpinnerComponent v-if="loading" />
   <div v-else-if="error">
     <ErrorComponent
-      :title="'Somthing went wrong!'"
-      :message="'This is the error message'"
+      :title="$t('somthing-went-wrong-error-titile')"
+      :message="$t('somthing-went-wrong-error-message')"
       :image-src="errorImage"
     />
   </div>
@@ -26,9 +26,9 @@
           </v-col>
           <v-col cols="8" sm="8" md="7">
             <v-tabs v-model="tab" color="deep-purple-accent-4">
-              <v-tab :value="'info'">Info</v-tab>
-              <v-tab :value="'episodes'">Episodes</v-tab>
-              <v-tab :value="'cast'">Cast</v-tab>
+              <v-tab :value="'info'">{{ $t("show-info") }}</v-tab>
+              <v-tab :value="'episodes'">{{ $t("show-episodes") }}</v-tab>
+              <v-tab :value="'cast'">{{ $t("show-cast") }}</v-tab>
             </v-tabs>
             <v-window v-model="tab">
               <v-window-item :key="1" :value="'info'">

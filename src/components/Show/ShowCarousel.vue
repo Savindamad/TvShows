@@ -13,6 +13,7 @@
             :show-id="data.externals.thetvdb || data.externals.imdb"
             :src="data.image?.original"
             :lazy-src="data.image?.medium"
+            :show-ratings="data.rating.average"
           />
         </v-slide-group-item>
       </v-slide-group>

@@ -1,6 +1,7 @@
 import { defineStore } from "pinia";
 
 import { Show } from "@/models/show.model";
+import { endpoints } from "@/static/app.config";
 
 type State = {
   query: string;
@@ -22,7 +23,7 @@ export const useSearchStore = defineStore("SearchStore", {
       this.error = false;
       try {
         const response = await fetch(
-          `https://api.tvmaze.com/search/shows?q=${this.query}`
+          `${endpoints.search}?q=${this.query}`
         ).then((res) => {
           if (res.ok) {
             return res.json();

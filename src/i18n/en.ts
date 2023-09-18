@@ -17,4 +17,7 @@ export const en = {
   "show-language": "Language",
   "show-official-site": "Official site",
   "back-to-home": "Back to Home",
+  "show-action": "Action",
+  "show-comedy": "Comedy",
+  "show-drama": "Drama",
 };

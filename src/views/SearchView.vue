@@ -33,7 +33,7 @@ import { useRoute, useRouter } from "vue-router";
 import { storeToRefs } from "pinia";
 import { debounce } from "lodash";
 
-import FullPageSpinnerComponent from "@/components/spinner/FullPageSpinnerComponent.vue";
+import FullPageSpinnerComponent from "@/components/Spinner/FullPageSpinnerComponent.vue";
 import ShowImageCard from "@/components/Show/ShowImageCard.vue";
 import { useSearchStore } from "@/store/SearchStore";
 import ErrorComponent from "@/components/Error/ErrorComponent.vue";

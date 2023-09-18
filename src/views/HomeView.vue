@@ -1,10 +1,10 @@
 <template>
   <FullPageSpinnerComponent v-if="loading" />
   <div v-else-if="error"></div>
-  <div class="mt-10"  v-else>
+  <div class="mt-10" v-else>
     <ShowCarousel
       v-for="data in GENRES_LOAD_ORDER"
-      :genres="data"
+      :genres="$t(GENRES_TRANSLATION[data])"
       :shows="getShowsByGenres(data)"
       :key="data"
     />
@@ -12,9 +12,9 @@
 </template>
 
 <script lang="ts" setup>
-import FullPageSpinnerComponent from "@/components/spinner/FullPageSpinnerComponent.vue";
+import FullPageSpinnerComponent from "@/components/Spinner/FullPageSpinnerComponent.vue";
 import ShowCarousel from "@/components/Show/ShowCarousel.vue";
-import { GENRES_LOAD_ORDER } from "@/static/app.constants";
+import { GENRES_LOAD_ORDER, GENRES_TRANSLATION } from "@/static/app.constants";
 
 import { storeToRefs } from "pinia";
 import { useShowStore } from "./../store/ShowStore";

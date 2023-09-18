@@ -54,7 +54,7 @@ import { useRoute } from "vue-router";
 
 import { storeToRefs } from "pinia";
 
-import FullPageSpinnerComponent from "@/components/spinner/FullPageSpinnerComponent.vue";
+import FullPageSpinnerComponent from "@/components/Spinner/FullPageSpinnerComponent.vue";
 import MainInfoComponent from "@/components/Show/ShowInfo/MainInfoComponent.vue";
 import EpisodesComponent from "@/components/Show/ShowInfo/EpisodesComponent.vue";
 import CastComponent from "@/components/Show/ShowInfo/CastComponent.vue";

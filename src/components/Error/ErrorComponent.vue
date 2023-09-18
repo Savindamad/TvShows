@@ -8,9 +8,10 @@
           </div>
         </v-col>
         <v-col cols="12" md="8">
-          <p class="text-h4">{{ title }}</p>
-          <p class="text-subtitle-1">{{ message }}</p>
+          <p id="errorTitle" class="text-h4">{{ title }}</p>
+          <p id="errorMessage" class="text-subtitle-1">{{ message }}</p>
           <v-btn
+            id="backToHome"
             size="small"
             variant="outlined"
             color="primary"

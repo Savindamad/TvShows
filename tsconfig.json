@@ -15,7 +15,8 @@
     "lib": ["esnext", "dom"],
     "types": [
       "node",
-      "vuetify"
+      "vuetify",
+      "vitest/globals"
     ],
     "paths": {
       "@/*": ["src/*"]
@@ -26,6 +27,7 @@
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "vite.config.ts"
+    "vite.config.ts",
+    "cypress/**/*.ts",
   ]
 }

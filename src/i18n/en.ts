@@ -11,6 +11,7 @@ export const en = {
   "show-episodes": "Episodes",
   "show-cast": "Cast",
   "show-search": "Search..",
+  "show-schedule": "Schedule",
   "show-status": "Status",
   "show-type": "Show type",
   "show-language": "Language",

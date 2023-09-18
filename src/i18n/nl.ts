@@ -13,6 +13,7 @@ export const nl: typeof en = {
   "show-episodes": "Episodes dutch",
   "show-cast": "Cast",
   "show-search": "Search..",
+  "show-schedule": "Schedule",
   "show-status": "Status",
   "show-type": "Show type",
   "show-language": "Language",

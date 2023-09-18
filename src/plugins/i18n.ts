@@ -5,6 +5,7 @@ import { nl } from "@/i18n/nl";
 export default createI18n({
   locale: "en",
   legacy: false,
+  globalInjection: true,
   messages: {
     en: en,
     nl: nl,

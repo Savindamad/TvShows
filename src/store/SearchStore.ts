@@ -22,15 +22,17 @@ export const useSearchStore = defineStore("SearchStore", {
       this.loading = true;
       this.error = false;
       try {
-        const response = await fetch(
-          `${endpoints.search}?q=${this.query}`
-        ).then((res) => {
-          if (res.ok) {
-            return res.json();
-          }
-          throw new Error("fetchShowsSearch error");
-        });
-        this.showSearch = response.map((res: any) => res.show);
+        if (this.query) {
+          const response = await fetch(
+            `${endpoints.search}?q=${this.query}`
+          ).then((res) => {
+            if (res.ok) {
+              return res.json();
+            }
+            throw new Error("fetchShowsSearch error");
+          });
+          this.showSearch = response.map((res: any) => res.show);
+        }
       } catch {
         this.error = true;
       } finally {

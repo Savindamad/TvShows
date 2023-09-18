@@ -27,6 +27,7 @@ import { onBeforeMount, watch } from "vue";
 import { useRoute, useRouter } from "vue-router";
 
 import { storeToRefs } from "pinia";
+import { debounce } from "lodash";
 
 import FullPageSpinnerComponent from "@/components/spinner/FullPageSpinnerComponent.vue";
 import ShowImageCard from "@/components/Show/ShowImageCard.vue";
@@ -50,7 +51,7 @@ onBeforeMount(() => {
   }
 });
 
-watch(query, () => {
-  fetchShowsSearch();
-});
+watch(query, debounce(() => {
+    fetchShowsSearch()
+}, 500));
 </script>

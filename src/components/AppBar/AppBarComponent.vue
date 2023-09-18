@@ -79,7 +79,6 @@ const localeChange = (value: Locale) => {
 };
 
 watch(query, () => {
-  console.log("Value changed: ", query.value);
   if (query.value) {
     router.replace({ path: "/search", query: { q: query.value } });
   } else {

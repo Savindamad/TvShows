@@ -8,8 +8,12 @@
     />
   </div>
   <div class="mt-10" v-else>
-    <v-row class="mx-4">
-      <div v-for="(data, n) in showSearch" :key="n" class="d-flex child-flex">
+    <v-row class="mx-4" no-gutters>
+      <v-col
+        v-for="(data, n) in showSearch"
+        :key="n"
+        class="d-flex child-flex img-container"
+      >
         <ShowImageCard
           :show-name="data.name"
           :show-id="data.externals?.thetvdb || data.externals?.imdb"
@@ -17,7 +21,7 @@
           :lazy-src="data.image?.medium"
           :show-ratings="data.rating.average"
         />
-      </div>
+      </v-col>
     </v-row>
   </div>
 </template>
@@ -51,7 +55,16 @@ onBeforeMount(() => {
   }
 });
 
-watch(query, debounce(() => {
-    fetchShowsSearch()
-}, 500));
+watch(
+  query,
+  debounce(() => {
+    fetchShowsSearch();
+  }, 500)
+);
 </script>
+
+<style>
+.img-container {
+  max-width: "450px";
+}
+</style>

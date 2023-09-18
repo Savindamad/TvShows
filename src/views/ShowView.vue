@@ -9,9 +9,9 @@
   </div>
   <div class="mt-10" v-else-if="show">
     <v-row class="d-flex justify-center">
-      <v-col offset-md="1" offset-lg="2">
+      <v-col offset="1" offset-sm="1" offset-md="1" offset-lg="2">
         <v-row>
-          <v-col cols="4" sm="4" md="3">
+          <v-col cols="10" sm="4" md="3" lg="3">
             <v-card class="ma-1">
               <div class="d-flex fill-height align-center justify-center">
                 <v-img
@@ -24,7 +24,7 @@
               </div>
             </v-card>
           </v-col>
-          <v-col cols="8" sm="8" md="7">
+          <v-col cols="11" sm="7" md="8" lg="7">
             <v-tabs v-model="tab" color="deep-purple-accent-4">
               <v-tab :value="'info'">{{ $t("show-info") }}</v-tab>
               <v-tab :value="'episodes'">{{ $t("show-episodes") }}</v-tab>

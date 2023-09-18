@@ -4,8 +4,7 @@
       :class="{ 'on-hover': isHovering }"
       v-bind="props"
       class="ma-1"
-      height="300"
-      width="200"
+      width="inherit"
       @click="
         () => {
           router.push({ path: `/show/${showId}`, params: { id: showId } });
@@ -17,31 +16,25 @@
           v-if="src"
           :lazy-src="lazySrc ?? ''"
           aspect-ratio="2/3"
-          height="300"
-          width="200"
+          min-height="225"
+          min-width="150"
           cover
           :src="src"
         >
-          <v-overlay
-            :model-value="isHovering"
-            contained
-            scrim="#000000"
-            class="align-end"
-          >
-            <p class="mx-2 text-h5 font-weight-black">
-              {{ showName }}
-            </p>
-            <div v-if="showRatings" class="mx-1 mb-2">
-              <v-icon
-                size="x-large"
-                color="deep-purple-accent-4"
-                icon="mdi-star"
-              ></v-icon>
-              <span class="font-weight-black ml-1">{{ showRatings }}</span>
-            </div>
-          </v-overlay>
+          <ImageOverlay
+            :is-hovering="isHovering"
+            :show-name="showName"
+            :show-ratings="showRatings"
+          />
         </v-img>
-        <div class="text-h6" v-else>{{ showName }}</div>
+        <div class="text-h6 text-img" v-else>
+          {{ showName }}
+          <ImageOverlay
+            :is-hovering="isHovering"
+            :show-name="showName"
+            :show-ratings="showRatings"
+          />
+        </div>
       </div>
     </v-card>
   </v-hover>
@@ -49,6 +42,8 @@
 
 <script lang="ts" setup>
 import { useRouter } from "vue-router";
+
+import ImageOverlay from "@/components/Show/ImageOverlay.vue";
 
 const router = useRouter();
 

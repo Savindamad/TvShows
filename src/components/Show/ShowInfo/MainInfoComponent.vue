@@ -9,6 +9,7 @@
         v-model="show.rating.average"
         length="10"
         density="compact"
+        size="22"
         readonly
       ></v-rating>
       <span class="ml-2 align-center">( {{ show.rating.average }} )</span>

@@ -12,6 +12,6 @@ export const GENRES_LOAD_ORDER = [
 
 export const GENRES_TRANSLATION = {
   [GENRES_TYPES.COMEDY]: "show-comedy",
-  [GENRES_TYPES.DRAMA]: "show-action",
+  [GENRES_TYPES.DRAMA]: "show-drama",
   [GENRES_TYPES.ACTION]: "show-action",
 };

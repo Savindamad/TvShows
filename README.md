@@ -1,57 +1,55 @@
-# essentials
+# TVShow
 
-## Project setup
+TVShow application is web application for categories, search and show infomation about TV shows. 
+This was written by using vue 3 framework with Vuetify UI framework and Pinia state management.
+
+Vitest test framework is using for write unit test and Cypress test framework is using for E2E tests. 
+
+### Project setup
 
 ```
-# yarn
-yarn
-
 # npm
 npm install
-
-# pnpm
-pnpm install
 ```
 
 ### Compiles and hot-reloads for development
 
 ```
-# yarn
-yarn dev
-
 # npm
 npm run dev
 
-# pnpm
-pnpm dev
 ```
 
 ### Compiles and minifies for production
 
 ```
-# yarn
-yarn build
-
 # npm
 npm run build
 
-# pnpm
-pnpm build
 ```
 
 ### Lints and fixes files
 
 ```
-# yarn
-yarn lint
-
 # npm
 npm run lint
-
-# pnpm
-pnpm lint
 ```
 
-### Customize configuration
+### Unit test
 
-See [Configuration Reference](https://vitejs.dev/config/).
+Vitest framework is using for writing unit test.
+
+```
+# npm
+npm run test
+```
+
+### E2E test local
+
+Cypress framework is using for writing E2E test. 
+
+```
+# npm
+npm run e2e:local
+```
+

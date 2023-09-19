@@ -5,9 +5,8 @@
       elevate-on-scroll
       scroll-target="#scrolling-techniques-7"
     >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
       <v-toolbar-title
+        class="v-card--link"
         @click="
           () => {
             router.push({ path: `/` });

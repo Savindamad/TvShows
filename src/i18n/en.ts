@@ -2,9 +2,10 @@ export const en = {
   //error messages
   "page-not-found-error-titile": "Page not found!",
   "page-not-found-error-message":
-    "Sorry, Page you are looking for is not available.",
+    "Sorry, the Page you are looking for is not available.",
   "somthing-went-wrong-error-titile": "Something went wrong!",
   "somthing-went-wrong-error-message": "Sorry, Please try again later.",
+  "under-development": "Under development",
 
   //show
   "show-info": "Info",

@@ -25,7 +25,7 @@
 defineProps<{
   isHovering: boolean | undefined;
   showName: string;
-  showRatings?: number;
+  showRatings?: number | null;
 }>();
 </script>
 

@@ -21,6 +21,7 @@
 
       <v-card-text>
         <v-text-field
+          id="searchInput"
           v-model="query"
           density="compact"
           variant="solo"

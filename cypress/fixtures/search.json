@@ -1,0 +1,562 @@
+[
+  {
+    "score": 0.6333652,
+    "show": {
+      "id": 22596,
+      "url": "https://www.tvmaze.com/shows/22596/abc-rocks",
+      "name": "ABC Rocks",
+      "type": "Variety",
+      "language": "English",
+      "genres": ["Music"],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "1984-06-22",
+      "ended": "1984-06-22",
+      "officialSite": null,
+      "schedule": {
+        "time": "00:00",
+        "days": ["Friday"]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 27,
+      "network": {
+        "id": 3,
+        "name": "ABC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://abc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": null,
+        "imdb": "tt0303417"
+      },
+      "image": null,
+      "summary": "<p><b>ABC Rocks</b> is an American music video show broadcast on ABC from June 22, 1984 to August 2, 1985. The thirty-minute show aired on Friday nights at midnight and featured popular rock videos by artists such as Prince, Billy Idol and David Bowie. It is notable as ABC's attempt to produce a show comparable to cable's MTV and NBC's Friday Night Videos.</p>",
+      "updated": 1626349089,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/22596"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/981069"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.59470665,
+    "show": {
+      "id": 36853,
+      "url": "https://www.tvmaze.com/shows/36853/the-abc-murders",
+      "name": "The ABC Murders",
+      "type": "Scripted",
+      "language": "English",
+      "genres": ["Drama", "Crime", "Mystery"],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2018-12-26",
+      "ended": "2018-12-28",
+      "officialSite": "https://www.bbc.co.uk/programmes/b0bxbvtl",
+      "schedule": {
+        "time": "21:00",
+        "days": ["Wednesday", "Thursday", "Friday"]
+      },
+      "rating": {
+        "average": 6.4
+      },
+      "weight": 70,
+      "network": {
+        "id": 12,
+        "name": "BBC One",
+        "country": {
+          "name": "United Kingdom",
+          "code": "GB",
+          "timezone": "Europe/London"
+        },
+        "officialSite": "https://www.bbc.co.uk/bbcone"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 348026,
+        "imdb": "tt8463714"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/178/445856.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/178/445856.jpg"
+      },
+      "summary": "<p>Based on Agatha Christie's 1936 novel, <b>The ABC Murders </b>follows Hercule Poirot as he hunts for a serial killer, known only as ABC, who leaving the copy of the ABC Railway Guide at each crime scene.</p>",
+      "updated": 1651159383,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/36853"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1575547"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.5926569,
+    "show": {
+      "id": 17230,
+      "url": "https://www.tvmaze.com/shows/17230/abc-news-mornings",
+      "name": "ABC News Mornings",
+      "type": "News",
+      "language": "English",
+      "genres": [],
+      "status": "Running",
+      "runtime": 175,
+      "averageRuntime": 161,
+      "premiered": "2016-05-23",
+      "ended": null,
+      "officialSite": "http://www.abc.net.au/tv/programs/abc-news-mornings/",
+      "schedule": {
+        "time": "09:00",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 61,
+      "network": {
+        "id": 1153,
+        "name": "ABC News 24",
+        "country": {
+          "name": "Australia",
+          "code": "AU",
+          "timezone": "Australia/Sydney"
+        },
+        "officialSite": null
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": null,
+        "imdb": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/411/1029960.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/411/1029960.jpg"
+      },
+      "summary": "<p>Joe O'Brien guides you through the morning with a mix of the latest news, live crosses to ABC reporters on the scene, media conferences and expert guests. Plus sports headlines with Tony Armstrong and weather with Nate Byrne.</p>",
+      "updated": 1694258436,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/17230"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2640615"
+        },
+        "nextepisode": {
+          "href": "https://api.tvmaze.com/episodes/2640616"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.5923736,
+    "show": {
+      "id": 17229,
+      "url": "https://www.tvmaze.com/shows/17229/abc-news-breakfast",
+      "name": "ABC News Breakfast",
+      "type": "News",
+      "language": "English",
+      "genres": [],
+      "status": "Running",
+      "runtime": 180,
+      "averageRuntime": 180,
+      "premiered": "2008-11-03",
+      "ended": null,
+      "officialSite": "http://www.abc.net.au/tv/programs/abc-news-breakfast/",
+      "schedule": {
+        "time": "06:00",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 66,
+      "network": {
+        "id": 114,
+        "name": "ABC",
+        "country": {
+          "name": "Australia",
+          "code": "AU",
+          "timezone": "Australia/Sydney"
+        },
+        "officialSite": "https://www.abc.net.au/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": null,
+        "imdb": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/476/1190529.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/476/1190529.jpg"
+      },
+      "summary": "<p>Be the first to know what's happened overnight. Michael Rowland and Lisa Millar, Paul Kennedy, Georgie Tunny and Nate Byrne bring you breaking news, interviews and all the information you need to get you through the day.</p>",
+      "updated": 1694258077,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/17229"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2640587"
+        },
+        "nextepisode": {
+          "href": "https://api.tvmaze.com/episodes/2640588"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.5814221,
+    "show": {
+      "id": 20699,
+      "url": "https://www.tvmaze.com/shows/20699/abc-weekend-specials",
+      "name": "ABC Weekend Specials",
+      "type": "Scripted",
+      "language": "English",
+      "genres": ["Children"],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "1977-01-29",
+      "ended": "1996-08-18",
+      "officialSite": null,
+      "schedule": {
+        "time": "",
+        "days": ["Saturday"]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 54,
+      "network": {
+        "id": 3,
+        "name": "ABC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://abc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 254554,
+        "imdb": "tt0075471"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/340/850939.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/340/850939.jpg"
+      },
+      "summary": "<p>A youth anthology series focusing primarily on adaptations of children's literature.</p>",
+      "updated": 1634376477,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/20699"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2131344"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.53182346,
+    "show": {
+      "id": 22594,
+      "url": "https://www.tvmaze.com/shows/22594/abc-in-concert",
+      "name": "ABC in Concert",
+      "type": "Variety",
+      "language": "English",
+      "genres": ["Music"],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 43,
+      "premiered": "1972-11-24",
+      "ended": "1997-09-05",
+      "officialSite": null,
+      "schedule": {
+        "time": "00:06",
+        "days": ["Friday"]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 22,
+      "network": {
+        "id": 3,
+        "name": "ABC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://abc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": null,
+        "imdb": "tt0334826"
+      },
+      "image": null,
+      "summary": "<p><b>ABC in Concert</b> is a revival of its old \"Wide World of Entertainment\" series from the 70's, this ABC series presented concert performances featuring a different rock or pop performer each week. Musical acts ranged from well-known performers like The Rolling Stones and Cher, to newer, up-and-coming acts like New Kids on the Block, Sinead O' Connor and Mariah Carey. These late-night concerts were also simultaneously broadcast on ABC radio.</p>",
+      "updated": 1634450214,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/22594"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2195249"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.5286148,
+    "show": {
+      "id": 16699,
+      "url": "https://www.tvmaze.com/shows/16699/abc-world-news-now",
+      "name": "ABC World News Now",
+      "type": "News",
+      "language": "English",
+      "genres": [],
+      "status": "Running",
+      "runtime": 120,
+      "averageRuntime": 120,
+      "premiered": "1992-01-06",
+      "ended": null,
+      "officialSite": "http://abcnews.go.com/",
+      "schedule": {
+        "time": "02:00",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Sunday"]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 56,
+      "network": {
+        "id": 3,
+        "name": "ABC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://abc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 40907,
+        "thetvdb": null,
+        "imdb": "tt0171925"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/55/139375.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/55/139375.jpg"
+      },
+      "summary": "<p><b>ABC World News Now</b> gives viewers up-to-date information on current events and news from around the world, airing in the overnight hours. Its tone is somewhat lighter than a regular news broadcast, though reports are filed from the usual ABC News correspondents. Weather and pop culture stories round out the reports.</p>",
+      "updated": 1626354768,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/16699"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1295377"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.5256396,
+    "show": {
+      "id": 22591,
+      "url": "https://www.tvmaze.com/shows/22591/abc-barn-dance",
+      "name": "ABC Barn Dance",
+      "type": "Variety",
+      "language": "English",
+      "genres": ["Music"],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "1949-02-21",
+      "ended": "1949-02-21",
+      "officialSite": null,
+      "schedule": {
+        "time": "21:30",
+        "days": ["Monday"]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 21,
+      "network": {
+        "id": 3,
+        "name": "ABC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://abc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": null,
+        "imdb": "tt0040990"
+      },
+      "image": null,
+      "summary": "<p><b>ABC Barn Dance</b> is an early country and Western music show on American television. Hosted by emcees Jack Stillwell and Hal O'Halloran, this musical variety show featured contemporary dance music primarily in folk, country and western styles.</p>",
+      "updated": 1626095374,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/22591"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/981204"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.51883113,
+    "show": {
+      "id": 27829,
+      "url": "https://www.tvmaze.com/shows/27829/abc-open-mother-tongue",
+      "name": "ABC Open: Mother Tongue",
+      "type": "Variety",
+      "language": "English",
+      "genres": [],
+      "status": "Ended",
+      "runtime": 5,
+      "averageRuntime": 5,
+      "premiered": "2017-05-02",
+      "ended": "2017-06-27",
+      "officialSite": "http://www.abc.net.au/tveducation/series/ABCOPENMOTHERTONGUE.htm",
+      "schedule": {
+        "time": "",
+        "days": []
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 21,
+      "network": {
+        "id": 116,
+        "name": "ABC ME",
+        "country": {
+          "name": "Australia",
+          "code": "AU",
+          "timezone": "Australia/Sydney"
+        },
+        "officialSite": null
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": null,
+        "imdb": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/476/1190532.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/476/1190532.jpg"
+      },
+      "summary": "<p>Sharing Australia's first languages.</p>",
+      "updated": 1694258696,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/27829"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1161700"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.5180184,
+    "show": {
+      "id": 47395,
+      "url": "https://www.tvmaze.com/shows/47395/abc-news-afternoons",
+      "name": "ABC News Afternoons",
+      "type": "News",
+      "language": "English",
+      "genres": [],
+      "status": "Running",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2020-04-20",
+      "ended": null,
+      "officialSite": "https://iview.abc.net.au/show/abc-news-afternoons",
+      "schedule": {
+        "time": "15:00",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 19,
+      "network": {
+        "id": 114,
+        "name": "ABC",
+        "country": {
+          "name": "Australia",
+          "code": "AU",
+          "timezone": "Australia/Sydney"
+        },
+        "officialSite": "https://www.abc.net.au/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": null,
+        "imdb": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/476/1190515.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/476/1190515.jpg"
+      },
+      "summary": "<p>Australia's most trusted source of independent news, ABC News connects all Australians with the latest news, investigative reporting, reliable information and expert analysis to help you stay informed and up-to-date.</p>",
+      "updated": 1694257669,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/47395"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2640545"
+        },
+        "nextepisode": {
+          "href": "https://api.tvmaze.com/episodes/2640546"
+        }
+      }
+    }
+  }
+]

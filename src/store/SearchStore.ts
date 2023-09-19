@@ -39,8 +39,5 @@ export const useSearchStore = defineStore("SearchStore", {
         this.loading = false;
       }
     },
-    setSearchQuery(query: string) {
-      this.query = query;
-    },
   },
 });

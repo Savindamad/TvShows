@@ -51,7 +51,7 @@ defineProps<{
   src?: string;
   lazySrc?: string;
   showName: string;
-  showId: number | string;
-  showRatings?: number;
+  showId?: number | string;
+  showRatings: number | null;
 }>();
 </script>

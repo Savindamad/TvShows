@@ -2,7 +2,7 @@
   <FullPageSpinnerComponent v-if="loading" />
   <div v-else-if="error"></div>
   <div class="mt-10" v-else>
-    <ShowCarousel
+    <ShowCarouselComponent
       v-for="data in GENRES_LOAD_ORDER"
       :genres="$t(GENRES_TRANSLATION[data])"
       :shows="getShowsByGenres(data)"
@@ -13,7 +13,7 @@
 
 <script lang="ts" setup>
 import FullPageSpinnerComponent from "@/components/Spinner/FullPageSpinnerComponent.vue";
-import ShowCarousel from "@/components/Show/ShowCarousel.vue";
+import ShowCarouselComponent from "@/components/Show/ShowCarouselComponent.vue";
 import { GENRES_LOAD_ORDER, GENRES_TRANSLATION } from "@/static/app.constants";
 
 import { storeToRefs } from "pinia";

@@ -18,8 +18,13 @@ export const useShowStore = defineStore("ShowStore", {
   getters: {
     getShowsByGenres(state): (genres: string) => Show[] {
       return (genres: string): Show[] => {
-        const sortByRatings = (a: Show, b: Show) =>
-          b.rating.average - a.rating.average;
+        const sortByRatings = (a: Show, b: Show) => {
+          if (b.rating.average && a.rating.average) {
+            return b.rating.average - a.rating.average;
+          }
+          return 0;
+        };
+
         return (
           state.shows
             .filter((show) => show.genres.includes(genres))
@@ -35,14 +40,12 @@ export const useShowStore = defineStore("ShowStore", {
         this.shows = [];
         this.loading = true;
         this.error = false;
-        this.shows = await fetch(`${endpoints.shows}?page=1`).then(
-          (res) => {
-            if (res.ok) {
-              return res.json();
-            }
-            throw new Error("fetchShows error");
+        this.shows = await fetch(`${endpoints.shows}?page=1`).then((res) => {
+          if (res.ok) {
+            return res.json();
           }
-        );
+          throw new Error("fetchShows error");
+        });
       } catch {
         this.error = true;
       } finally {

@@ -14,7 +14,7 @@
         :key="n"
         class="d-flex child-flex img-container"
       >
-        <ShowImageCard
+        <ShowImageCardComponet
           :show-name="data.name"
           :show-id="data.externals?.thetvdb || data.externals?.imdb"
           :src="data.image?.original"
@@ -34,7 +34,7 @@ import { storeToRefs } from "pinia";
 import { debounce } from "lodash";
 
 import FullPageSpinnerComponent from "@/components/Spinner/FullPageSpinnerComponent.vue";
-import ShowImageCard from "@/components/Show/ShowImageCard.vue";
+import ShowImageCardComponet from "@/components/Show/ShowImageCardComponent.vue";
 import { useSearchStore } from "@/store/SearchStore";
 import ErrorComponent from "@/components/Error/ErrorComponent.vue";
 import errorImage from "@/assets/wrong.png";

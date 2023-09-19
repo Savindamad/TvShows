@@ -21,7 +21,7 @@
           cover
           :src="src"
         >
-          <ImageOverlay
+          <ImageOverlayComponet
             :is-hovering="isHovering"
             :show-name="showName"
             :show-ratings="showRatings"
@@ -29,7 +29,7 @@
         </v-img>
         <div class="text-h6 text-img" v-else>
           {{ showName }}
-          <ImageOverlay
+          <ImageOverlayComponet
             :is-hovering="isHovering"
             :show-name="showName"
             :show-ratings="showRatings"
@@ -43,7 +43,7 @@
 <script lang="ts" setup>
 import { useRouter } from "vue-router";
 
-import ImageOverlay from "@/components/Show/ImageOverlay.vue";
+import ImageOverlayComponet from "@/components/Show/ImageOverlayComponent.vue";
 
 const router = useRouter();
 

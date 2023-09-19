@@ -13,14 +13,10 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
-    "types": [
-      "node",
-      "vuetify",
-      "vitest/globals"
-    ],
+    "types": ["node", "vuetify", "vitest/globals"],
     "paths": {
       "@/*": ["src/*"]
-    },
+    }
   },
   "include": [
     "src/**/*.ts",
@@ -28,6 +24,6 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "vite.config.ts",
-    "cypress/**/*.ts",
+    "cypress/**/*.ts"
   ]
 }

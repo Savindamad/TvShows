@@ -15,15 +15,15 @@ type Country = {
 };
 
 type Network = {
-  id: 114;
+  id: number;
   name: string;
   country: Country;
-  officialSite: string;
+  officialSite: string | null;
 };
 
 type Externals = {
-  tvrage: number;
-  thetvdb: number;
+  tvrage: number | null;
+  thetvdb: number | null;
   imdb: string;
 };
 
@@ -31,11 +31,11 @@ type WebChannel = {
   name: string;
   officialSite: string;
   id: number;
-  country: string;
+  country: string | null;
 };
 
 type Rating = {
-  average?: number;
+  average: number | null;
 };
 
 export type Show = {
@@ -48,15 +48,15 @@ export type Show = {
   status: string;
   runtime: number;
   averageRuntime: number;
-  premiered: string; // date
-  ended: string; // date
-  officialSite: string;
+  premiered: string | null;
+  ended: string | null;
+  officialSite: string | null;
   schedule: Schedule;
   rating: Rating;
   weight: number;
   network: Network;
-  webChannel?: WebChannel;
-  dvdCountry: string;
+  webChannel?: WebChannel | null;
+  dvdCountry?: string | null;
   externals: Externals;
   image?: Image;
   summary: string;

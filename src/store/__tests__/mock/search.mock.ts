@@ -1,0 +1,297 @@
+export const fetchResponse = [
+  {
+    score: 9,
+    show: {
+      id: 465,
+      url: "https://www.tvmaze.com/shows/465/band-of-brothers",
+      name: "Band of Brothers",
+      type: "Scripted",
+      language: "English",
+      genres: ["Drama", "Action", "War"],
+      status: "Ended",
+      runtime: 60,
+      averageRuntime: 59,
+      premiered: "2001-09-09",
+      ended: "2001-11-04",
+      officialSite: "http://www.hbo.com/band-of-brothers",
+      schedule: { time: "20:00", days: ["Sunday"] },
+      rating: { average: 8.9 },
+      weight: 98,
+      network: {
+        id: 8,
+        name: "HBO",
+        country: {
+          name: "United States",
+          code: "US",
+          timezone: "America/New_York",
+        },
+        officialSite: "https://www.hbo.com/",
+      },
+      webChannel: null,
+      dvdCountry: null,
+      externals: { tvrage: 2708, thetvdb: 74205, imdb: "tt0185906" },
+      image: {
+        medium:
+          "https://static.tvmaze.com/uploads/images/medium_portrait/80/201679.jpg",
+        original:
+          "https://static.tvmaze.com/uploads/images/original_untouched/80/201679.jpg",
+      },
+      summary:
+        "<p>Drawn from interviews with survivors of Easy Company, as well as their journals and letters, <b>Band of Brothers</b> chronicles the experiences of these men from paratrooper training in Georgia through the end of the war. As an elite rifle company parachuting into Normandy early on D-Day morning, participants in the Battle of the Bulge, and witness to the horrors of war, the men of Easy knew extraordinary bravery and extraordinary fear - and became the stuff of legend. Based on Stephen E. Ambrose's acclaimed book of the same name.</p>",
+      updated: 1662443989,
+    },
+  },
+  {
+    score: 5,
+    show: {
+      id: 491,
+      url: "https://www.tvmaze.com/shows/491/star-trek-the-next-generation",
+      name: "Star Trek: The Next Generation",
+      type: "Scripted",
+      language: "English",
+      genres: ["Action", "Adventure", "Science-Fiction"],
+      status: "Ended",
+      runtime: 60,
+      averageRuntime: 60,
+      premiered: "1987-09-28",
+      ended: "1994-05-23",
+      officialSite: null,
+      schedule: { time: "", days: ["Monday"] },
+      rating: { average: 8.7 },
+      weight: 97,
+      network: {
+        id: 72,
+        name: "Syndication",
+        country: {
+          name: "United States",
+          code: "US",
+          timezone: "America/New_York",
+        },
+        officialSite: null,
+      },
+      webChannel: null,
+      dvdCountry: null,
+      externals: { tvrage: 5337, thetvdb: 71470, imdb: "tt0092455" },
+      image: {
+        medium:
+          "https://static.tvmaze.com/uploads/images/medium_portrait/292/730798.jpg",
+        original:
+          "https://static.tvmaze.com/uploads/images/original_untouched/292/730798.jpg",
+      },
+      summary:
+        "<p><b>Star Trek: The Next Generation</b> (TNG) focuses on the 24th century adventures of Captain Jean-Luc Picard aboard the U.S.S. Enterprise (NCC-1701-D). This incarnation of the famous starship is much larger than the one captained by James T. Kirk a century earlier, and, accordingly, it carries a larger crew complement: 1,012 men, women…and, surprisingly, children. This era's Starfleet Command believes that men and women are more likely to sign up for long-term exploratory missions if they think of their ship as home. Thus, Picard's crew enjoys many of the comforts they'd have otherwise left behind, including a wide variety of recreational opportunities, \"replicated\" food dishes to suit every palate, and quarters large enough to share with spouses and offspring. There are schools for the children and a bar (stocked with synthetic alcohol, or synthehol) where the adults can unwind. However, the ongoing mission—no longer limited to a mere five years—remains virtually the same as it was during Kirk's time: to seek out new life and new civilizations, and to boldly go where no one has gone before.</p>",
+      updated: 1693978094,
+    },
+  },
+  {
+    score: 5,
+    show: {
+      id: 358,
+      url: "https://www.tvmaze.com/shows/358/spartacus-gods-of-the-arena",
+      name: "Spartacus: Gods of the Arena",
+      type: "Scripted",
+      language: "English",
+      genres: ["Action", "Adventure"],
+      status: "Ended",
+      runtime: 60,
+      averageRuntime: 60,
+      premiered: "2011-01-21",
+      ended: "2011-02-25",
+      officialSite: null,
+      schedule: { time: "22:00", days: ["Friday"] },
+      rating: { average: 8.6 },
+      weight: 96,
+      network: {
+        id: 17,
+        name: "STARZ",
+        country: {
+          name: "United States",
+          code: "US",
+          timezone: "America/New_York",
+        },
+        officialSite: "https://www.starz.com/us/en/",
+      },
+      webChannel: null,
+      dvdCountry: null,
+      externals: { tvrage: 26886, thetvdb: null, imdb: "tt1758429" },
+      image: {
+        medium:
+          "https://static.tvmaze.com/uploads/images/medium_portrait/2/5449.jpg",
+        original:
+          "https://static.tvmaze.com/uploads/images/original_untouched/2/5449.jpg",
+      },
+      summary:
+        "<p>The mini-series features the bloody history of the House of Batiatus and the city of Capua before the arrival of Spartacus. Quintus Lentulus Batiatus becomes a lanista (manager) when he takes over his father's ludus of gladiators. He has ambitions of stepping out of his father's shadow by seeking recognition for his own name and achieving further greatness for his house. By his side stands his beautiful wife Lucretia who will help her husband achieve his ambitions, whatever the cost. Batiatus puts all his fortunes on the man who will gain him fame and glory. That would be his best gladiator, the Celt, Gannicus, a skilled warrior who wields dual swords with deadly purpose. Those who oppose Batiatus and his future champion(s) of Capua do so at their own peril.</p><p>Purchased as an undisciplined and disheveled recruit in the first episode, Crixus the Gaul endures mockery and threats of death to become the champion after Gannicus. As Batiatus fends off repeated attempts by his professional rival Tullius to obtain Gannicus, his relationships with his father Titus and friend Solonius begin to suffer the strain of his relentless ambition. Former champion, Oenomaus, reluctantly becomes Doctore, while Syrian recruits Ashur and Dagan try to prove themselves worthy of being gladiators. Veteran gladiators Barca and Gannicus note the rising star of Crixus, as the machinations of Batiatus and Lucretia end in tragedy for several members of the household. Against all of this, the city's splendid new arena nears completion and with it the opening games that will make slaves into gods. When the arena opens, Batiatus' gladiators prevail in the contest. Gannicus again proves himself to be the champion of Capua and a god of the arena. By virtue of his win against Solonius' gladiators, he gains his freedom and Crixus becomes the new champion.</p>",
+      updated: 1676070154,
+    },
+  },
+  {
+    score: 5,
+    show: {
+      id: 429,
+      url: "https://www.tvmaze.com/shows/429/farscape",
+      name: "Farscape",
+      type: "Scripted",
+      language: "English",
+      genres: ["Action", "Adventure", "Science-Fiction"],
+      status: "Ended",
+      runtime: 60,
+      averageRuntime: 60,
+      premiered: "1999-03-19",
+      ended: "2003-03-21",
+      officialSite: null,
+      schedule: { time: "20:00", days: ["Friday"] },
+      rating: { average: 8.6 },
+      weight: 94,
+      network: {
+        id: 16,
+        name: "Syfy",
+        country: {
+          name: "United States",
+          code: "US",
+          timezone: "America/New_York",
+        },
+        officialSite: null,
+      },
+      webChannel: null,
+      dvdCountry: null,
+      externals: { tvrage: 3519, thetvdb: 70522, imdb: "tt0187636" },
+      image: {
+        medium:
+          "https://static.tvmaze.com/uploads/images/medium_portrait/3/7531.jpg",
+        original:
+          "https://static.tvmaze.com/uploads/images/original_untouched/3/7531.jpg",
+      },
+      summary:
+        "<p>Astronaut John Crichton assumes he'll be home in time for dinner. But a freak accident during an experimental space mission catapults him across a thousand galaxies to an alien battlefield. Suddenly, he's trapped among alien creatures wielding deadly technology - a battle that 20th century sci-fi pop culture never prepared him for. Hunted by a merciless military race, Crichton begins his quest for home from a galaxy far, far away...</p>",
+      updated: 1687886134,
+    },
+  },
+  {
+    score: 5,
+    show: {
+      id: 475,
+      url: "https://www.tvmaze.com/shows/475/babylon-5",
+      name: "Babylon 5",
+      type: "Scripted",
+      language: "English",
+      genres: ["Drama", "Action", "Science-Fiction"],
+      status: "Ended",
+      runtime: 60,
+      averageRuntime: 60,
+      premiered: "1993-02-22",
+      ended: "2023-08-15",
+      officialSite: null,
+      schedule: { time: "19:00", days: ["Wednesday"] },
+      rating: { average: 8.6 },
+      weight: 99,
+      network: {
+        id: 14,
+        name: "TNT",
+        country: {
+          name: "United States",
+          code: "US",
+          timezone: "America/New_York",
+        },
+        officialSite: "https://www.tntdrama.com/",
+      },
+      webChannel: null,
+      dvdCountry: null,
+      externals: { tvrage: 2693, thetvdb: 70726, imdb: "tt0105946" },
+      image: {
+        medium:
+          "https://static.tvmaze.com/uploads/images/medium_portrait/80/200201.jpg",
+        original:
+          "https://static.tvmaze.com/uploads/images/original_untouched/80/200201.jpg",
+      },
+      summary:
+        "<p>\"It was the dawn of the Third Age of Mankind ten years after the Earth-Minbari War The Babylon Project was a dream given form. Its goal: to prevent another war by creating a place where Humans and aliens could work out their differences peacefully. It's a port of call – home away from home for diplomats, hustlers, entrepreneurs, and wanderers. Humans and aliens wrapped in two million, five-hundred thousand tons of spinning metal, all alone in the night. It can be a dangerous place, but it's our last best hope for peace. This is the story of the last of the Babylon stations. The year is 2258. The name of the place is <b>Babylon 5</b>\".</p><p>A five season space opera written by J. Michael Straczynsky.</p>",
+      updated: 1694623259,
+    },
+  },
+  {
+    score: 5,
+    show: {
+      id: 427,
+      url: "https://www.tvmaze.com/shows/427/buffy-the-vampire-slayer",
+      name: "Buffy the Vampire Slayer",
+      type: "Scripted",
+      language: "English",
+      genres: ["Drama", "Action", "Supernatural"],
+      status: "Ended",
+      runtime: 60,
+      averageRuntime: 60,
+      premiered: "1997-03-10",
+      ended: "2003-05-20",
+      officialSite: null,
+      schedule: { time: "20:00", days: ["Tuesday"] },
+      rating: { average: 8.5 },
+      weight: 96,
+      network: {
+        id: 70,
+        name: "UPN",
+        country: {
+          name: "United States",
+          code: "US",
+          timezone: "America/New_York",
+        },
+        officialSite: null,
+      },
+      webChannel: null,
+      dvdCountry: null,
+      externals: { tvrage: 2930, thetvdb: 70327, imdb: "tt0118276" },
+      image: {
+        medium:
+          "https://static.tvmaze.com/uploads/images/medium_portrait/2/7490.jpg",
+        original:
+          "https://static.tvmaze.com/uploads/images/original_untouched/2/7490.jpg",
+      },
+      summary:
+        '<p><i>"Into every generation, there is a chosen one. She alone will stand against the vampires, the demons, and the forces of darkness. She is the slayer."</i></p><p>Buffy Summers is the latest in a line of young women known as "Vampire Slayers" who have to battle vampires, demons and other forces of evil, all while growing up and dealing with love and teenage angst in this iconic cult series. She and her "Scooby Gang" fight the good fight in a small town called Sunnydale.</p>',
+      updated: 1674793735,
+    },
+  },
+  {
+    score: 5,
+    show: {
+      id: 488,
+      url: "https://www.tvmaze.com/shows/488/naruto-shippuuden",
+      name: "Naruto: Shippuuden",
+      type: "Animation",
+      language: "Japanese",
+      genres: ["Action", "Adventure", "Anime", "Fantasy"],
+      status: "Ended",
+      runtime: 30,
+      averageRuntime: 30,
+      premiered: "2007-02-15",
+      ended: "2017-03-23",
+      officialSite: "http://www.tv-tokyo.co.jp/anime/naruto/index2.html",
+      schedule: { time: "19:30", days: ["Thursday"] },
+      rating: { average: 8.5 },
+      weight: 88,
+      network: {
+        id: 76,
+        name: "TV Tokyo",
+        country: { name: "Japan", code: "JP", timezone: "Asia/Tokyo" },
+        officialSite: null,
+      },
+      webChannel: {
+        id: 20,
+        name: "Crunchyroll",
+        country: null,
+        officialSite: "https://www.crunchyroll.com/",
+      },
+      dvdCountry: null,
+      externals: { tvrage: 14748, thetvdb: 79824, imdb: "tt0988824" },
+      image: {
+        medium:
+          "https://static.tvmaze.com/uploads/images/medium_portrait/3/9413.jpg",
+        original:
+          "https://static.tvmaze.com/uploads/images/original_untouched/3/9413.jpg",
+      },
+      summary:
+        "<p><b>Naruto: Shippuden</b> is the continuation of the original animated TV series Naruto.The story revolves around an older and slightly more matured Uzumaki Naruto and his quest to save his friend Uchiha Sasuke from the grips of the snake-like Shinobi, Orochimaru. After 2 and a half years Naruto finally returns to his village of Konoha, and sets about putting his ambitions to work, though it will not be easy, as he has amassed a few (more dangerous) enemies, in the likes of the shinobi organization; Akatsuki.</p>",
+      updated: 1670687950,
+    },
+  },
+];

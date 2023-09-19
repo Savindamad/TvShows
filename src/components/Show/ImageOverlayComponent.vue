@@ -5,7 +5,7 @@
     scrim="#000000"
     class="align-end"
   >
-    <p class="mx-2 text-h5 font-weight-black">
+    <p id="showName" class="mx-2 text-h5 font-weight-black">
       {{ showName }}
     </p>
     <div v-if="showRatings" class="mx-1 mb-2">
@@ -14,7 +14,9 @@
         color="deep-purple-accent-4"
         icon="mdi-star"
       ></v-icon>
-      <span class="font-weight-black ml-1">{{ showRatings }}</span>
+      <span id="showRatings" class="font-weight-black ml-1">{{
+        showRatings
+      }}</span>
     </div>
   </v-overlay>
 </template>

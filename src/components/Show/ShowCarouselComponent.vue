@@ -1,15 +1,9 @@
 <template>
   <div v-if="shows?.length">
     <div class="text-h5 ml-15">{{ genres }}</div>
-    <v-slide-group
-      id="showCarousel"
-      v-model="selectedItem"
-      class="py-4"
-      center-active
-      show-arrows
-    >
+    <v-slide-group id="showCarousel" class="py-4" center-active show-arrows>
       <v-slide-group-item v-for="(data, i) in shows" :key="i">
-        <ShowImageCard
+        <ShowImageCardComponet
           :show-name="data.name"
           :show-id="data.externals.thetvdb || data.externals.imdb"
           :src="data.image?.original"
@@ -22,15 +16,11 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from "vue";
-
 import { Show } from "@/models/show.model";
-import ShowImageCard from "@/components/Show/ShowImageCard.vue";
+import ShowImageCardComponet from "@/components/Show/ShowImageCardComponent.vue";
 
 defineProps<{
   genres?: string;
   shows?: Show[];
 }>();
-
-const selectedItem = ref("");
 </script>

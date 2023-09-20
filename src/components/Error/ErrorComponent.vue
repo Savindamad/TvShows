@@ -2,12 +2,12 @@
   <div class="error-wrap">
     <v-container class="max-md">
       <v-row>
-        <v-col cols="12" md="4">
+        <v-col cols="4">
           <div class="image-container">
             <v-img :src="imageSrc" max-width="120"></v-img>
           </div>
         </v-col>
-        <v-col cols="12" md="8">
+        <v-col cols="8">
           <p id="errorTitle" class="text-h4">{{ title }}</p>
           <p id="errorMessage" class="text-subtitle-1">{{ message }}</p>
           <v-btn
